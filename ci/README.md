@@ -9,4 +9,5 @@ GitHub で見かける "circleci passing"，"coverage 96%" や "maven central 1.
 
 Java OSS 開発における CI を簡単に構築する方法をお話しします。
 
-†スライド, GitHub x Maven Central x Coveralls x CircleCI, https://k--kato.github.io/ci/index.html
+†スライド, GitHub x Maven Central x Coveralls x CircleCI, <a href="https://k--kato.github.io/ci/index.html" target="_blank">https://k--kato.github.io/ci/index.html</a>
+
