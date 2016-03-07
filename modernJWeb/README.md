@@ -5,11 +5,19 @@
 
 # 技術要素
 
-![Web big picture](img/web_big_picture.png)
+## HTTP
+![HTTP](img/HTTP_Steps.png)
 
+## Web Development Timeline
 ![Web Development Timeline](img/Web_development_timeline.png)
 
-![Web big picture](img/mvc.png)
+## Architecture
+![Web architecture](img/mvc_archi_logo.png)
+
+## Big Picture
+![Web big picture](img/web_big_picture.png)
+
+# Web 開発者に知ってほしいこと
 
 ## Web アプリケーション
 * アーキテクチャの理解
