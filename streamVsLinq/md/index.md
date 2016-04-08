@@ -1,5 +1,9 @@
 # Stream vs. LINQ
-April 8 2016 @k_kato
+
+[<img style="border-radius: 50% !important;" src="img/twitter.jpg" width="200px" alt="Keisuke KATO">](https://twitter.com/k_kato) 
+
+April 8, 2016 @k_kato
+
 
 
 
