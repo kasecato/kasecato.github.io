@@ -253,15 +253,16 @@ ON               |   924ms     | 1,057ms
 
 ### Java
 ```java
-Stream<String> stream = // 👎
+Stream<String> stream = // 👎 var intermediate operations
         Arrays.asList("React", "AngularJS 2") // 👍
-              .stream(); // 👎 .stream()
+              .stream() // 👎 .stream()?
+              .distinct();
 ```
 
 ### C# #
 ```csharp
-var enumerable =　// 👍 
-        new List<string>(){"React", "AngularJS 2"}; // 👎
+var enumerable =　// 👍 var
+        new List<string>(){"React", "AngularJS 2"}; // 👎 new
 ```
 
 
@@ -276,7 +277,6 @@ Stream<String> filter =
         Arrays.asList("React", "AngularJS 2")
               .stream()
               .filter(x -> x.equals("AngularJS 2")); // 👎 filter?
-              // 👎 equals => Yoda conditions: "AngularJS 2".equals(x) 
 ```
 
 ### C# #
@@ -308,7 +308,7 @@ List<String> list =
         Arrays.asList("React", "AngularJS 2")
               .stream()
               .filter(x -> x.equals("AngularJS 2"))
-              .collect(Collectors.toList()); // 👎 collect Collectors
+              .collect(Collectors.toList()); // 👎 Collectors? Collector?
 ```
 
 ### C# #
@@ -316,28 +316,76 @@ List<String> list =
 List<string> list = 
         new List<string>(){"React", "AngularJS 2"}
               .Where(x => x == "AngularJS 2")
-              .ToList(); // 👍
+              .ToList(); // 👍 short
 ```
+
+
+
+## Hate -> sort
+<!-- .slide: data-background="rgb(0, 0, 0)" -->
+
+### Java
+```java
+Stream<String> reverse =
+        Arrays.asList("AngularJS 2", "React")
+              .stream()
+              .sorted(Comparator.reverseOrder()); // 👎 too long
+```
+
+### C# #
+```csharp
+var reverse = 
+        new List<string>(){"AngularJS 2", "React"}
+              .OrderByDescending(x => x); // 👎 lambda
+```
+
+
+
+## Hate -> sum
+<!-- .slide: data-background="rgb(0, 0, 0)" -->
+
+### Java
+```java
+final int sum =
+        Arrays.asList(1, 2, 3, 4, 5)
+              .stream()
+              .mapToInt(x -> x) // 👎 lambda
+              .sum();
+// or
+final long sum =
+        Arrays.asList(1, 2, 3, 4, 5)
+              .stream()
+              .collect(Collectors.summarizingInt(v -> v)) // 👎 lambda
+              .getSum();
+```
+
+### C# #
+```csharp
+int sum =
+        new List<int>(){1, 2, 3, 4, 5}
+              .Sum(); // 👍
+```
+
 
 
 
 ## Hate -> Type Erasure
 <!-- .slide: data-background="rgb(0, 0, 0)" -->
 
-## Java
+### Java
 ```java
     int  sum(Function<List<E>, Integer> selector);
     long sum(Function<List<E>, Long>    selector);
 ```
 
 ```bash
-Error: java: name clash: // 👎
+Error: java: name clash: // 👎 type erasure
 sum(java.util.function.Function<java.util.List<E>,java.lang.Long>) and
 sum(java.util.function.Function<java.util.List<E>,java.lang.Integer>)
 have the same erasure
 ```
 
-## C# #
+### C# #
 ```csharp
     int  sum(Func<List<E>, int>  selector);
     long sum(Func<List<E>, long> selector); // 👍
@@ -346,6 +394,16 @@ have the same erasure
 
 
 ![Coding Horror](img/coding-horror.png)
+
+
+
+## [Scala Fukuoka 2016](http://scala.connpass.com/event/26674/)
+<!-- .slide: data-background="rgb(255, 255, 255)" -->
+(![Scala Fukuoka](img/scala_fukuoka.png))[http://scala.connpass.com/event/26674/]
+
+
+
+# Thanks!
 
 
 
