@@ -235,6 +235,7 @@ ON               | 2,526ms     |  5,820ms
 * Intel(R) Core(TM) i7-4650U CPU @ 1.70GHz Haswell
 * Java x64 build 1.8.0_77-b03
 * C# x64 Mono 1.0.0-rc1-16609
+* Source code: [Java](https://gist.github.com/k--kato/941a7ceb8e106c52c0971303487a45b2), [C#](https://gist.github.com/k--kato/7bca3fb42dd9486cfe076871dba02182)
 
 
 
@@ -250,6 +251,7 @@ ON               |   924ms     | 1,057ms
 * Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz Skylake
 * Java x64 build 1.8.0_77-b03
 * C# x64 clr 1.0.0-rc2-20221
+* Source code: [Java](https://gist.github.com/k--kato/941a7ceb8e106c52c0971303487a45b2), [C#](https://gist.github.com/k--kato/7bca3fb42dd9486cfe076871dba02182)
 
 
 
