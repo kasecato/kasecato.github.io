@@ -178,7 +178,6 @@ Influenced by | ?                    | SQL, Haskell
  n/a                  | Intersect
  n/a                  | Union
  n/a                  | Except
- n/a                  | GroupJoin
  n/a                  | SequenceEqual
  n/a                  | Last
 
@@ -223,6 +222,7 @@ protected int countPrimes(int max)
 ```
 
 
+
 ## Parallel Test OS X
 
 Parallel max=10M | Stream      | LINQ 
@@ -235,6 +235,7 @@ ON               | 2,526ms     |  5,820ms
 * Intel(R) Core(TM) i7-4650U CPU @ 1.70GHz Haswell
 * Java x64 build 1.8.0_77-b03
 * C# x64 Mono 1.0.0-rc1-16609
+
 
 
 ## Parallel Test Windows
@@ -267,6 +268,7 @@ Stream<String> stream = // 👎 var intermediate operations
 ```csharp
 var enumerable =　// 👍 var
         new List<string>(){"React", "AngularJS 2"}; // 👎 new
+              .Distinct();
 ```
 
 
@@ -289,6 +291,7 @@ var where =
         new List<string>(){"React", "AngularJS 2"}
               .Where(x => x == "AngularJS 2"); // <- 👍 we know SQL
 ```
+
 
 
 ## Software Metaphors
