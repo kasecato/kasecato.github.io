@@ -267,7 +267,7 @@ Stream<String> stream = // 👎 var intermediate operations
 ### C# #
 ```csharp
 var enumerable =　// 👍 var
-        new List<string>(){"React", "AngularJS 2"}; // 👎 new
+        new List<string>(){"React", "AngularJS 2"} // 👎 new
               .Distinct();
 ```
 
