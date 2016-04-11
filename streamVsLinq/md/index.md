@@ -2,7 +2,11 @@
 
 [<img style="border-radius: 50% !important;" src="img/twitter.jpg" width="200px" alt="Keisuke KATO">](https://twitter.com/k_kato) 
 
-April 8, 2016 @k_kato
+[Nulab Happy Hour!](http://nulab.connpass.com/event/27936/)
+
+[#NulabDrinkup](https://twitter.com/hashtag/NulabDrinkup?src=hash)
+
+April 8, 2016 [@k_kato](https://twitter.com/k_kato)
 
 
 
