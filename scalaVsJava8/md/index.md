@@ -319,10 +319,12 @@ Javascript (ES6/ES2015) | =>      | I/F/O
 <!-- .element: class="fragment" data-fragment-index="1" -->
 * Scala は給料が高い
 <!-- .element: class="fragment" data-fragment-index="2" -->
-* 💵
+* Scala => 💵
 <!-- .element: class="fragment" data-fragment-index="3" -->
-* C# も頑張っている
+* 💵
 <!-- .element: class="fragment" data-fragment-index="4" -->
+* C# も頑張っている
+<!-- .element: class="fragment" data-fragment-index="5" -->
 
 
 
