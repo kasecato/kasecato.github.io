@@ -118,7 +118,7 @@ const addTimeline2016 = (profile) => {
 ### 2015年 に Java 8 で 180 KLOC 書いた
 ### コーダーが Scala に入学してみた
 
-![GitHub](/img/github_2016-05-22.png) 
+![GitHub](img/github_2016-05-22.png) 
 
 
 
@@ -184,17 +184,17 @@ Javascript (ES6/ES2015) | =>      | I/F/O
 
 ### <span style="writing-mode: tb-rl"><=</span> 海外の伝統芸能
 
-![](/img/apollo.jpg)
-![](/img/spaceshuttle.jpg)
-![](/img/spacex.jpg)
+![](img/apollo.jpg)
+![](img/spaceshuttle.jpg)
+![](img/spacex.jpg)
 
 
 
 ### <span style="writing-mode: tb-rl"><=</span> 日本の伝統芸能
 
-![](/img/yotchan.jpg)
-![](/img/ika_girl.png)
-![](/img/splatoon.jpg)
+![](img/yotchan.jpg)
+![](img/ika_girl.png)
+![](img/splatoon.jpg)
 
 
 
