@@ -118,7 +118,7 @@ const addTimeline2016 = (profile) => {
 ### 2015年 に Java 8 で 180 KLOC 書いた
 ### コーダーが Scala に入学してみた
 
-![GitHub](../img/github_2016-05-22.png) 
+![GitHub](/img/github_2016-05-22.png) 
 
 
 
@@ -144,6 +144,7 @@ const addTimeline2016 = (profile) => {
 <!-- .element: class="fragment" data-fragment-index="1" -->
 
 
+
 ## ->
 
 言語                     | ラムダ式 | I/F/O
@@ -156,6 +157,7 @@ Julia                   | ->      | F/O
 Swift                   | ->      | F/O 
 OCaml                   | ->      | I/F/O 
 Perl 5                  | ->      | I/F/O 
+
 
 
 ## =>
@@ -171,24 +173,28 @@ Scala                   | =>      | I/F/O
 Javascript (ES6/ES2015) | =>      | I/F/O 
 
 
+
 # =>
+
 
 
 # <span style="writing-mode: tb-rl"><=</span>
 
 
+
 ### <span style="writing-mode: tb-rl"><=</span> 海外の伝統芸能
 
-![](../img/apollo.jpg)
-![](../img/spaceshuttle.jpg)
-![](../img/spacex.jpg)
+![](/img/apollo.jpg)
+![](/img/spaceshuttle.jpg)
+![](/img/spacex.jpg)
+
 
 
 ### <span style="writing-mode: tb-rl"><=</span> 日本の伝統芸能
 
-![](../img/yotchan.jpg)
-![](../img/ika_girl.png)
-![](../img/splatoon.jpg)
+![](/img/yotchan.jpg)
+![](/img/ika_girl.png)
+![](/img/splatoon.jpg)
 
 
 
@@ -336,6 +342,7 @@ Javascript (ES6/ES2015) | =>      | I/F/O
 
 1. Stack Overflow, [Stack Overflow Developer Survey Results 2016](https://stackoverflow.com/research/developer-survey-2016)
 1. Stack Overflow, [Stack Overflow Developer Survey Results 2015](https://stackoverflow.com/research/developer-survey-2015)
+1. Bruce A. Tate, 『7つの言語の7つの世界』
 1. Wikipedia, [Anonymous function](https://en.wikipedia.org/wiki/Anonymous_function)
 1. Wikipedia, [オブジェクト指向プログラミング]( https://ja.wikipedia.org/wiki/%E3%82%AA%E3%83%96%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E6%8C%87%E5%90%91%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0)
 1. Twitter, [Scala School](http://twitter.github.io/scala_school/)
