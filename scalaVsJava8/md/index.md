@@ -100,9 +100,9 @@ const addTimeline2016 = (profile) => {
 <!-- .element: class="fragment" data-fragment-index="1" -->
     * 関数リテラル
 <!-- .element: class="fragment" data-fragment-index="1" -->
-    * 第一級関数
-<!-- .element: class="fragment" data-fragment-index="1" -->
     * クロージャー
+<!-- .element: class="fragment" data-fragment-index="1" -->
+    * 第一級関数
 <!-- .element: class="fragment" data-fragment-index="1" -->
 
 
@@ -110,8 +110,8 @@ const addTimeline2016 = (profile) => {
 # ?
 ## 型推論
 ## 関数リテラル
-## 第一級関数
 ## クロージャー
+## 第一級関数
 
 
 
@@ -233,7 +233,7 @@ Javascript (ES6/ES2015) | =>      | I/F/O
 ### Java 8
 <!-- .element: class="fragment" data-fragment-index="0" -->
 ```scala
-{ // リテラル関数 in2cm 視点から見たエンクロージング・スコープ
+{ // 関数リテラル in2cm 視点から見たエンクロージング・スコープ
     double in = 2.54;
 
     Function<Double, Double> in2cm = (pizza) -> {
@@ -297,6 +297,8 @@ Javascript (ES6/ES2015) | =>      | I/F/O
 <!-- .element: class="fragment" data-fragment-index="0" -->
 ```scala
     double pizza(Function<Integer, Double> in2cm);
+                 -------------------------------
+                 第一級関数： 引数/戻り値に関数が使用できる
     double pizza(Function<Double , Double> in2cm); // 👎 エラー
 ```
 <!-- .element: class="fragment" data-fragment-index="0" -->
