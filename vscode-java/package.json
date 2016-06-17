@@ -1,5 +1,5 @@
 {
-  "name": "scalavsjava8",
+  "name": "vscode-java",
   "devDependencies": {
       "live-server": "~1.0.0"
   },

@@ -280,6 +280,7 @@ mvn package
 * 軽量
 * バッテリーにやさしい
 * Write once, debug everywhere
+<!-- .element: class="fragment" data-fragment-index="1" -->
 
 
 
