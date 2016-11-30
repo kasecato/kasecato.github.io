@@ -56,8 +56,8 @@ const addTimeline2016 = (profile) => {
 <!-- .element: class="fragment" data-fragment-index="80" -->
 * 👍 納期が厳しい現代情報社会に身を挺して一石を投じた Java 9
 <!-- .element: class="fragment" data-fragment-index="90" -->
-<img src="../img/mmm.jpg" height="200px" />
-<img src="../img/dm.jpg" height="200px" />
+<img src="img/mmm.jpg" height="200px" />
+<img src="img/dm.jpg" height="200px" />
 <!-- .element: class="fragment" data-fragment-index="90" -->
 
 
@@ -176,7 +176,7 @@ jshell> 1+1
 $1 ==> 2
 ```
 <!-- .element: class="fragment" data-fragment-index="20" -->
-![http://blog.arungupta.me/jdk9-repl-getting-started/](../img/jdk9-repl.png)
+![http://blog.arungupta.me/jdk9-repl-getting-started/](img/jdk9-repl.png)
 <!-- .element: class="fragment" data-fragment-index="20" -->
 
 
