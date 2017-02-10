@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="680" height="400" xmlns="http://www.w3.org/2000/svg">
+  <path d="M 284.122 49.923 L 284.504 129.116" style="fill: none; stroke-width: 2; stroke: rgb(204, 204, 204);"/>
+  <g transform="translate(80,40)">
+    <path class="link" d="M306.6666666666667,100C306.6666666666667,150 255.55555555555557,150 255.55555555555557,200" style="stroke-width: 2; fill: none; stroke: rgb(204, 204, 204);"/>
+    <path class="link" d="M306.6666666666667,100C306.6666666666667,150 357.7777777777778,150 357.7777777777778,200" style="stroke-width: 2; stroke: rgb(204, 204, 204); fill: none;"/>
+    <path class="link" d="M204.44444444444446,0C204.44444444444446,50 102.22222222222223,50 102.22222222222223,100" style="stroke-width: 2; fill: none; stroke: rgb(204, 204, 204);"/>
+    <path class="link" d="M204.44444444444446,0C204.44444444444446,50 204.44444444444446,50 204.44444444444446,100"/>
+    <path class="link" d="M204.44444444444446,0C204.44444444444446,50 306.6666666666667,50 306.6666666666667,100" style="stroke-width: 2; fill: none; stroke: rgb(204, 204, 204);"/>
+    <g class="node" transform="translate(357.7777777777778,200)">
+      <circle r="10" style="fill: rgb(255, 255, 255); stroke-width: 2; stroke: steelblue;"/>
+      <text y="80" x="60" style="font-size: 30px; text-anchor: middle; white-space: pre;"><tspan>decl &gt; </tspan><tspan style="fill: rgb(188, 135, 0);">z-index</tspan><tspan> &gt; </tspan><tspan style="fill: rgb(0, 163, 152);">-1</tspan></text>
+    </g>
+    <g class="node" transform="translate(255.55555555555557,200)">
+      <circle r="10" style="fill: rgb(255, 255, 255); stroke-width: 2; stroke: steelblue;"/>
+      <text y="40" x="-100" style="font-size: 30px; text-anchor: middle; white-space: pre;"><tspan>decl &gt; </tspan><tspan style="fill: rgb(188, 135, 0);">font-family</tspan><tspan> &gt; </tspan><tspan style="fill: rgb(0, 163, 152);">"MS Gothic"</tspan></text>
+    </g>
+    <g class="node" transform="translate(306.6666666666667,100)">
+      <circle r="10" style="fill: rgb(255, 255, 255); stroke-width: 2; stroke: steelblue;"/>
+      <text x="100" y="8" style="font-size: 30px; text-anchor: middle; white-space: pre;"><tspan>rule &gt; </tspan><tspan style="fill: rgb(0, 141, 216);">.emacs</tspan></text>
+    </g>
+    <g class="node" transform="translate(204.44444444444446,100)">
+      <circle r="10" style="fill: rgb(255, 255, 255); stroke-width: 2; stroke: rgb(70, 130, 180);"/>
+      <text y="40" style="font-size: 30px; text-anchor: middle; white-space: pre;"><tspan>comment &gt; </tspan><tspan style="fill: rgb(128, 128, 128);">vim is sexy</tspan></text>
+    </g>
+    <g class="node" transform="translate(102.22222222222223,100)">
+      <circle r="10" style="fill: rgb(255, 255, 255); stroke-width: 2; stroke: steelblue;"/>
+      <text y="-20.415" x="-5.351" style="font-size: 30px; text-anchor: middle; white-space: pre;"><tspan style="font-size: 30px; word-spacing: 0px;">atrule &gt; </tspan><tspan style="fill: rgb(126, 154, 0); font-size: 30px; word-spacing: 0px;">import</tspan><tspan style="font-size: 30px; word-spacing: 0px;"> &gt; </tspan><tspan style="fill: rgb(0, 163, 152); font-size: 30px; word-spacing: 0px;">'editor.css'</tspan></text>
+    </g>
+    <g class="node" transform="translate(204.44444444444446,0)">
+      <circle r="10" style="fill: rgb(255, 255, 255); stroke-width: 2; stroke: steelblue;"/>
+      <text y="-18" style="font-size: 30px; text-anchor: middle; white-space: pre;">root</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="470" height="440" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(1.00, 0.00, -0.00, -1.00, 0.0, 768.0)">
+    <text transform="matrix(1, 0, 0, -1, 0, 0)" x="81" y="-718" style="fill: rgb(0, 20, 128); font-size: 30px; white-space: pre;">@</text>
+    <text transform="matrix(1, 0, 0, -1, 0, 0)" x="114" y="-718" style="fill: rgb(127, 154, 0); font-size: 30px; letter-spacing: 0.002px; white-space: pre;">import</text>
+    <text transform="matrix(1, 0, 0, -1, 0, 0)" x="212" y="-718" style="fill: rgb(0, 163, 152); font-size: 30px; letter-spacing: 0.002px; white-space: pre;">'editor.css'</text>
+    <text transform="matrix(1, 0, 0, -1, 0, 0)" x="355" y="-718" style="fill: rgb(88, 110, 117); font-size: 30px; letter-spacing: 0.002px; white-space: pre;">;</text>
+    <text transform="matrix(1, 0, 0, -1, 0, 0)" x="81" y="-639" style="fill: rgb(128, 128, 128); font-size: 30px; letter-spacing: 0.002px; white-space: pre;">/* vim is sexy */</text>
+    <text transform="matrix(1, 0, 0, -1, 0, 0)" x="81" y="-559" style="fill: rgb(0, 140, 216); font-size: 30px; letter-spacing: 0.002px; white-space: pre;">.emacs</text>
+    <text transform="matrix(1, 0, 0, -1, 0, 0)" x="188" y="-559" style="fill: rgb(88, 110, 117); font-size: 30px; letter-spacing: 0.002px; white-space: pre;">{</text>
+    <text transform="matrix(1, 0, 0, -1, 0, 0)" x="135" y="-492" style="fill: rgb(188, 135, 0); font-size: 30px; letter-spacing: 0.002px; white-space: pre;">font-family</text>
+    <text transform="matrix(1, 0, 0, -1, 0, 0)" x="283" y="-492" style="fill: rgb(88, 110, 117); font-size: 30px; letter-spacing: 0.002px; white-space: pre;">: </text>
+    <text transform="matrix(1, 0, 0, -1, 0, 0)" x="294" y="-492" style="fill: rgb(0, 163, 152); font-size: 30px; letter-spacing: 0.002px; white-space: pre;">"MS Gothic"</text>
+    <text transform="matrix(1, 0, 0, -1, 0, 0)" x="458" y="-492" style="font-size: 30px; letter-spacing: 0.002px; white-space: pre;">;</text>
+    <text transform="matrix(1, 0, 0, -1, 0, 0)" x="135" y="-429" style="fill: rgb(188, 135, 0); font-size: 30px; letter-spacing: 0.002px; white-space: pre;">z-index</text>
+    <text transform="matrix(1, 0, 0, -1, 0, 0)" x="234" y="-429" style="fill: rgb(88, 110, 117); font-size: 30px; letter-spacing: 0.002px; white-space: pre;">: </text>
+    <text transform="matrix(1, 0, 0, -1, 0, 0)" x="265" y="-429" style="fill: rgb(0, 163, 152); font-size: 30px; letter-spacing: 0.002px; white-space: pre;">-1</text>
+    <text transform="matrix(1, 0, 0, -1, 0, 0)" x="292" y="-429" style="fill: rgb(88, 110, 117); font-size: 30px; letter-spacing: 0.002px; white-space: pre;">;</text>
+    <text transform="matrix(1, 0, 0, -1, 0, 0)" x="87" y="-379" style="fill: rgb(88, 110, 117); font-size: 30px; white-space: pre;">}</text>
+    <text transform="matrix(1, 0, 0, -1, 0, 0)" y="-691" x="127" style="fill-opacity: 0.5; font-size: 30px; font-style: italic; white-space: pre;">name</text>
+    <text transform="matrix(1, 0, 0, -1, 0, 0)" x="233" y="-690" style="fill-opacity: 0.5; font-size: 30px; font-style: italic; white-space: pre;">params</text>
+    <text transform="matrix(1, 0, 0, -1, 0, 0)" x="158" y="-607" style="fill-opacity: 0.5; font-size: 30px; font-style: italic; white-space: pre;">text</text>
+    <text transform="matrix(1, 0, 0, -1, 0, 0)" x="378" y="-701" style="font-size: 30px; font-style: italic; font-weight: bold; white-space: pre;">atrule</text>
+    <text transform="matrix(1, 0, 0, -1, 0, 0)" x="309" y="-624" style="font-size: 30px; font-style: italic; font-weight: bold; letter-spacing: 0.004px; white-space: pre;">comment</text>
+    <text transform="matrix(1, 0, 0, -1, 0, 0)" x="228" y="-547.009" style="font-size: 30px; font-style: italic; font-weight: bold; letter-spacing: 0.004px; white-space: pre;">rule</text>
+    <text transform="matrix(1, 0, 0, -1, 0, 0)" x="87" y="-529" style="fill-opacity: 0.5; font-size: 30px; font-style: italic; white-space: pre;">selector</text>
+    <text transform="matrix(1, 0, 0, -1, 0, 0)" x="175" y="-465" style="fill-opacity: 0.5; font-size: 30px; font-style: italic; white-space: pre;">prop</text>
+    <text transform="matrix(1, 0, 0, -1, 0, 0)" x="335" y="-462" style="fill-opacity: 0.5; font-size: 30px; font-style: italic; white-space: pre;">value</text>
+    <text transform="matrix(1, 0, 0, -1, 0, 0)" x="250" y="-394" style="fill-opacity: 0.5; font-size: 30px; font-style: italic; white-space: pre;">decl</text>
+  </g>
+</svg>

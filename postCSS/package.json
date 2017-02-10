@@ -1,0 +1,9 @@
+{
+  "name": "postcss-stylish-dark-theme-gene",
+  "devDependencies": {
+      "live-server": "~1.2.0"
+  },
+  "scripts": {
+      "build": "./node_modules/.bin/live-server"
+  }
+}

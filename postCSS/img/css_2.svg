@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="470" height="490" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(1.00, 0.00, -0.00, -1.00, 0.0, 768.0)">
+    <text transform="matrix(1, 0, 0, -1, 0, 0)" x="378" y="-701" style="font-size: 30px; font-style: italic; font-weight: bold; white-space: pre;">atrule</text>
+    <text transform="matrix(1, 0, 0, -1, 0, 0)" x="309" y="-624" style="font-size: 30px; font-style: italic; font-weight: bold; letter-spacing: 0.004px; white-space: pre;">comment</text>
+    <text transform="matrix(1, 0, 0, -1, 0, 0)" x="228" y="-547.009" style="font-size: 30px; font-style: italic; font-weight: bold; letter-spacing: 0.004px; white-space: pre;">rule</text>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="470" height="546" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(1.00, 0.00, -0.00, -1.00, 0.0, 768.0)">
+    <text transform="matrix(1, 0, 0, -1, 0, 0)" y="-691" x="127" style="fill-opacity: 0.5; font-size: 30px; font-style: italic; white-space: pre;">name</text>
+    <text transform="matrix(1, 0, 0, -1, 0, 0)" x="233" y="-690" style="fill-opacity: 0.5; font-size: 30px; font-style: italic; white-space: pre;">params</text>
+    <text transform="matrix(1, 0, 0, -1, 0, 0)" x="158" y="-607" style="fill-opacity: 0.5; font-size: 30px; font-style: italic; white-space: pre;">text</text>
+    <text transform="matrix(1, 0, 0, -1, 0, 0)" x="87" y="-529" style="fill-opacity: 0.5; font-size: 30px; font-style: italic; white-space: pre;">selector</text>
+    <text transform="matrix(1, 0, 0, -1, 0, 0)" x="175" y="-465" style="fill-opacity: 0.5; font-size: 30px; font-style: italic; white-space: pre;">prop</text>
+    <text transform="matrix(1, 0, 0, -1, 0, 0)" x="335" y="-462" style="fill-opacity: 0.5; font-size: 30px; font-style: italic; white-space: pre;">value</text>
+    <text transform="matrix(1, 0, 0, -1, 0, 0)" x="250" y="-394" style="fill-opacity: 0.5; font-size: 30px; font-style: italic; white-space: pre;">decl</text>
+  </g>
+</svg>
