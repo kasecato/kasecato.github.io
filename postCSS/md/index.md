@@ -74,6 +74,19 @@ In 2017 expect...
     ![](img/css_evolution.png)
 </a>
 
+```bash
+PostCSS:   45 ms
+Rework:    64 ms   (1.4 times slower)
+libsass:   101 ms  (2.2 times slower)
+Less:      136 ms  (3.0 times slower)
+Stylus:    175 ms  (3.9 times slower)
+Stylecow:  291 ms  (6.5 times slower)
+Ruby Sass: 1731 ms (38.7 times slower)
+```
+<!-- .element: class="fragment" data-fragment-index="10" -->
+https://github.com/postcss/benchmark
+<!-- .element: class="fragment" data-fragment-index="10" -->
+
 
 
 ## PostCSS + cssnext とは？
@@ -281,13 +294,14 @@ module.exports = postcss.plugin('postcss-stylish-dark-theme-gene', () => {
 
 * Front-End Developer Handbook 2017, https://frontendmasters.gitbooks.io/front-end-handbook-2017/content/
 * PostCSS, http://postcss.org/
+* PostCSS, "PostCSS Benchmarks", https://github.com/postcss/benchmark
 * cssnext, http://cssnext.io/
 * PostCss.parts, http://postcss.parts/
 * Josh, "color", https://github.com/qix-/color
 * Rob Sanchez, "css-color-extractor", https://github.com/rsanchez/css-color-extractor
+
+
 * Катерина Торт, "Как написать postcss-плагин", http://cakeinpanic.github.io/hackathon/
-
-
 * Wikipedia, 「Yacc」, https://ja.wikipedia.org/wiki/Yacc
 * Florian Rappl, "Compiler construction", http://talks.florian-rappl.de/Compiler/
 * W3Schools, "Color Converter", http://www.w3schools.com/colors/colors_converter.asp
