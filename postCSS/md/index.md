@@ -239,10 +239,6 @@ return new Color('white').negate()
 const postcss = require('postcss')
 
 module.exports = postcss.plugin('postcss-stylish-dark-theme-gene', () => {
-    return (/*Root*/root) => {
-        root.walkDecls(geneDarkTheme)
-        return root
-    }
 
     const geneDarkTheme = (/*Declaration*/decl) =>
         hasPropColor(decl.prop)
@@ -255,6 +251,11 @@ module.exports = postcss.plugin('postcss-stylish-dark-theme-gene', () => {
                 ? decl.value = decl.value.replace(regx, c => new Color(c).negate())
                 : false
         )
+
+    return (/*Root*/root) => {
+        root.walkDecls(geneDarkTheme)
+        return root
+    }
 })
 ```
 <!-- .element: class="fragment" data-fragment-index="10" -->
@@ -264,6 +265,7 @@ module.exports = postcss.plugin('postcss-stylish-dark-theme-gene', () => {
 # DEMO
 
 ## <a href="https://twitter.github.io/scala_school/" target="_blank">Scala School</a>
+## <a href="https://connpass.com/event/49117/" target="_blank">connpass</a>
 
 
 
