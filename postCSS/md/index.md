@@ -70,7 +70,9 @@ In 2017 expect...
 
 
 
-![](img/css_joke.png)
+<a href="https://m.alphasights.com/css-evolution-from-css-sass-bem-css-modules-to-styled-components-d4c1da3a659b">
+    ![](img/css_evolution.png)
+</a>
 
 
 
