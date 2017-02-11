@@ -173,6 +173,17 @@ CSS を構文解析して AST (抽象構文木) を生成する
 
 
 
+## なぜ Dark テーマを作るのか?
+
+### [Stackoverflow Developer Survey 2015](http://stackoverflow.com/research/developer-survey-2015#tech-ide)
+<img src="img/stackoverfolow_2015_ide_theme.png"/>
+<!-- .element: class="fragment" data-fragment-index="10" -->
+
+##### 26,086 people from 157 countries
+<!-- .element: class="fragment" data-fragment-index="10" -->
+
+
+
 ## 非公式 Dark テーマの辛さ
 
 * 全ページの CSS を確認する必要がある
@@ -304,6 +315,7 @@ module.exports = postcss.plugin('postcss-stylish-dark-theme-gene', () => {
 * Катерина Торт, "Как написать postcss-плагин", http://cakeinpanic.github.io/hackathon/
 * Wikipedia, 「Yacc」, https://ja.wikipedia.org/wiki/Yacc
 * Florian Rappl, "Compiler construction", http://talks.florian-rappl.de/Compiler/
+* Stackoverflow, "Stackoverflow Developer Survey 2015", http://stackoverflow.com/research/developer-survey-2015#tech-ide
 * W3Schools, "Color Converter", http://www.w3schools.com/colors/colors_converter.asp
 * Qiita, 「PostCSSのASTを操作する」, http://qiita.com/morishitter/items/8f87ea4004e9152d9b61
 * Qiita, 「cssnextから学ぶ次世代CSS」, http://qiita.com/howdy39/items/92a7de771bbea99dbc7c
