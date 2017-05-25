@@ -1,0 +1,10 @@
+{
+  "name": "migrating-to-jdk9",
+  "version": "1.0.0",
+  "devDependencies": {
+      "live-server": "~1.2.0"
+  },
+  "scripts": {
+      "build": "./node_modules/.bin/live-server"
+  }
+}
