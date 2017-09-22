@@ -122,9 +122,9 @@ const addTimeline2017 = (profile) => {
 ```bash
 java.locale.providers=CLDR,COMPAT,SPI
 ```
-* JDK 8 互換に設定する方 (`COMPAT` (旧 JRE) > `CLDR` に設定する)
+* JDK 8 互換に設定する方 (`CLDR` を削除する)
 ```bash
-java -Djava.locale.providers=COMPAT,CLDR,SPI
+java -Djava.locale.providers=COMPAT,SPI
 ```
 
 
