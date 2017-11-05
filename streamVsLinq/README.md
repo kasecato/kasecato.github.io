@@ -1,3 +1,3 @@
 ## Stream vs. LINQ
 
-<a href="https://k--kato.github.io/streamVsLinq/" target="_blank">https://k--kato.github.io/streamVsLinq/</a>
+<a href="https://kasecato.github.io/streamVsLinq/" target="_blank">https://kasecato.github.io/streamVsLinq/</a>

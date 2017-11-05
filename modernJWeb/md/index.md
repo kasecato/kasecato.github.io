@@ -1,5 +1,5 @@
 ## Modern Java Web Application Development with Spring Boot
-March 7 2016 @k_kato
+March 7 2016 @kasecato
 
 
 
@@ -203,7 +203,7 @@ March 7 2016 @k_kato
 
 ### 開発環境を構築しよう
 
-https://github.com/k--kato/marsweather
+https://github.com/kasecato/marsweather
 
 
 

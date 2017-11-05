@@ -1,10 +1,10 @@
 # Scala vs. Java 8
 
-[<img style="border-radius: 50% !important;" src="img/twitter.jpg" width="200px" alt="Keisuke KATO">](https://twitter.com/k_kato) 
+[<img style="border-radius: 50% !important;" src="img/twitter.jpg" width="200px" alt="Keisuke KATO">](https://twitter.com/kasecato) 
 
 [Scala福岡2016](http://scala.connpass.com/event/26674/)@[nulab](https://nulab-inc.com/)
 
-2016 年 5 月 28 日[@k_kato](https://twitter.com/k_kato)
+2016 年 5 月 28 日[@kasecato](https://twitter.com/kasecato)
 
 
 

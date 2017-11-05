@@ -1,10 +1,10 @@
 ## 明日から使える Java 9 便利機能 5 選
 
-<a href="https://twitter.com/k_kato" target="_blank"><img style="border-radius: 50% !important;" src="img/twitter.jpg" width="200px" alt="Keisuke KATO"></a> 
+<a href="https://twitter.com/kasecato" target="_blank"><img style="border-radius: 50% !important;" src="img/twitter.jpg" width="200px" alt="Keisuke KATO"></a> 
 
 #### Javaツール勉強会＠福岡@[AIPカフェ](http://javatoolstudy-fukuoka.connpass.com/event/43600/)
 
-2016/11/4 <a href="https://twitter.com/k_kato" target="_blank">@k_kato</a>
+2016/11/4 <a href="https://twitter.com/kasecato" target="_blank">@kasecato</a>
 
 
 

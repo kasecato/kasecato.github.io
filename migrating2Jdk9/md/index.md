@@ -1,11 +1,11 @@
 ## The Hitchhiker's Migration Guide to JDK 9
 ### 新機能の影で消えた機能
 
-<a href="https://twitter.com/k_kato" target="_blank"><img style="border-radius: 50% !important;" src="img/twitter.jpg" width="200px" alt="Keisuke KATO"></a>
+<a href="https://twitter.com/kasecato" target="_blank"><img style="border-radius: 50% !important;" src="img/twitter.jpg" width="200px" alt="Keisuke KATO"></a>
 
 #### [Java関連もくもく会＠福岡 2017/05](https://javatoolstudy-fukuoka.connpass.com/event/57731/)
 
-2017/5/26 <a href="https://twitter.com/k_kato" target="_blank">@k_kato</a>
+2017/5/26 <a href="https://twitter.com/kasecato" target="_blank">@kasecato</a>
 
 
 

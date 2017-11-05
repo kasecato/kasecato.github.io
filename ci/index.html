@@ -52,7 +52,7 @@
                 x
                 ### CircleCI
                 #### Java Tool Study Fukuoka
-                ###### November 20 2015 / @k_kato
+                ###### November 20 2015 / @kasecato
             </script>
         </section>
 
@@ -63,7 +63,7 @@
                     async function aboutMe() {
                         const profile = {
                             name: "Keisuke KATO",
-                            twitter: "@k_kato"
+                            twitter: "@kasecato"
                         };
                         try {
                             return await followTwitterAsync(profile);
@@ -176,7 +176,7 @@
                 1. OSSRH JIRA でチケットを作成 [Create Issue](https://issues.sonatype.org/secure/CreateIssue.jspa?issuetype=21&pid=10134) [(起票例)](https://issues.sonatype.org/browse/OSSRH-16339)
                 1. [GPG](https://gpgtools.org/) 署名の鍵作成。Send public key to Keyserver する
                 1. ~/.m2/settings.xml に OSSRH，GPG 情報を追加 ([コード例](http://tagomoris.hatenablog.com/entry/20141028/1414485679))
-                1. pom.xml にビルド，Javadoc，テスト，GPG，OSSRH 情報を追加 ([コード例](https://github.com/k--kato/jLinqer/blob/master/pom.xml))
+                1. pom.xml にビルド，Javadoc，テスト，GPG，OSSRH 情報を追加 ([コード例](https://github.com/kasecato/jLinqer/blob/master/pom.xml))
                 1. デプロイ mvn clean deploy -DperformRelease=true
                 1. デプロイ結果を確認 [oss.sonatype.org com.github](https://oss.sonatype.org/content/groups/public/com/github/)
                 1. JIRA でデプロイ成功を報告 ([報告例](https://issues.sonatype.org/browse/OSSRH-16339?focusedCommentId=321040&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-321040))
@@ -192,7 +192,7 @@
         <section data-markdown>
             <script type="text/template">
                 # Coveralls
-                <a href="https://coveralls.io/github/k--kato/jLinqer?branch=master" target="_blank">
+                <a href="https://coveralls.io/github/kasecato/jLinqer?branch=master" target="_blank">
                     <img src="./img/coveralls.svg" style="height: 40px;"/>
                 </a>
 
@@ -289,7 +289,7 @@
         <section data-markdown>
             <script type="text/template">
                 # CircleCI
-                <a href="https://circleci.com/gh/k--kato/jLinqer" target="_blank">
+                <a href="https://circleci.com/gh/kasecato/jLinqer" target="_blank">
                     <img src="./img/circleci.svg" style="height: 40px;"/>
                 </a>
 
@@ -374,8 +374,8 @@
                 ### README.md
 
                 ```md
-                [![Circle CI](https://circleci.com/gh/k--kato/jLinqer.svg?style=shield&circle-token=5a717ccbb33b6a206644b5e630807fc9dff1597f)](https://circleci.com/gh/k--kato/jLinqer)
-                [![Coverage Status](https://coveralls.io/repos/k--kato/jLinqer/badge.svg?branch=master&service=github)](https://coveralls.io/github/k--kato/jLinqer?branch=master)
+                [![Circle CI](https://circleci.com/gh/kasecato/jLinqer.svg?style=shield&circle-token=5a717ccbb33b6a206644b5e630807fc9dff1597f)](https://circleci.com/gh/kasecato/jLinqer)
+                [![Coverage Status](https://coveralls.io/repos/kasecato/jLinqer/badge.svg?branch=master&service=github)](https://coveralls.io/github/kasecato/jLinqer?branch=master)
                 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.jlinqer/jlinqer/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.jlinqer/jlinqer)
                 [![License: MIT](http://img.shields.io/badge/license-MIT-orange.svg)](LICENSE)
                 ```

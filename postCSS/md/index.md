@@ -1,11 +1,11 @@
 ## 5 分で作る!
 ## PostCSS で Dark テーマ
 
-<a href="https://twitter.com/k_kato" target="_blank"><img style="border-radius: 50% !important;" src="img/twitter.jpg" width="200px" alt="Keisuke KATO"></a> 
+<a href="https://twitter.com/kasecato" target="_blank"><img style="border-radius: 50% !important;" src="img/twitter.jpg" width="200px" alt="Keisuke KATO"></a> 
 
 #### 合同勉強会 in 福岡 @ [Nulab](https://connpass.com/event/49117/)
 
-2017/2/11 <a href="https://twitter.com/k_kato" target="_blank">@k_kato</a>
+2017/2/11 <a href="https://twitter.com/kasecato" target="_blank">@kasecato</a>
 
 
 
@@ -195,7 +195,7 @@ CSS を構文解析して AST (抽象構文木) を生成する
 
 
 
-## [postcss-stylish-dark-theme-gene](https://github.com/k--kato/postcss-stylish-dark-theme-gene)
+## [postcss-stylish-dark-theme-gene](https://github.com/kasecato/postcss-stylish-dark-theme-gene)
 を作ってみた
 
  | Before | After
@@ -297,7 +297,7 @@ module.exports = postcss.plugin('postcss-stylish-dark-theme-gene', () => {
 
 # Thanks!
 
-[postcss-stylish-dark-theme-gene](https://github.com/k--kato/postcss-stylish-dark-theme-gene)
+[postcss-stylish-dark-theme-gene](https://github.com/kasecato/postcss-stylish-dark-theme-gene)
 
 
 

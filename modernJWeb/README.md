@@ -1,7 +1,7 @@
 # Modern Java Web Application Development with Spring Boot
 
-* スライド, https://k--kato.github.io/modernJWeb
-* サンプル&問題, https://github.com/k--kato/marsweather
+* スライド, https://kasecato.github.io/modernJWeb
+* サンプル&問題, https://github.com/kasecato/marsweather
 
 # 技術要素
 

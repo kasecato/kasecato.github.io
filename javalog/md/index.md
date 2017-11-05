@@ -1,11 +1,11 @@
 ## ログ パーティショニング
 ### PostgreSQL x Java
 
-[<img style="border-radius: 50% !important;" src="img/twitter.jpg" width="200px" alt="Keisuke KATO">](https://twitter.com/k_kato) 
+[<img style="border-radius: 50% !important;" src="img/twitter.jpg" width="200px" alt="Keisuke KATO">](https://twitter.com/kasecato) 
 
 [Javaツール勉強会 ～ログライブラリとかいろいろ（？）～](http://javatoolstudy-fukuoka.connpass.com/event/28967/)
 
-2016年 4月 22日 [@k_kato](https://twitter.com/k_kato)
+2016年 4月 22日 [@kasecato](https://twitter.com/kasecato)
 
 
 

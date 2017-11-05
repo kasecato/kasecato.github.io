@@ -1,10 +1,10 @@
 ### VS Code ではじめる Java 開発環境構築 入門
 
-[<img style="border-radius: 50% !important;" src="img/twitter.jpg" width="200px" alt="Keisuke KATO">](https://twitter.com/k_kato) 
+[<img style="border-radius: 50% !important;" src="img/twitter.jpg" width="200px" alt="Keisuke KATO">](https://twitter.com/kasecato) 
 
 #### [Javaツール勉強会＠福岡 2016/06 ～フレームワークとかいろいろ（？）～](http://javatoolstudy-fukuoka.connpass.com/event/33377/)@[AIP カフェ](http://www.npo-aip.or.jp/aipcafe)
 
-2016 年 6 月 17 日[@k_kato](https://twitter.com/k_kato)
+2016 年 6 月 17 日[@kasecato](https://twitter.com/kasecato)
 
 
 
@@ -291,7 +291,7 @@ mvn package
 ## VS Code Java
 ## サンプル プロジェクト
 
-https://github.com/k--kato/vscode-javadebug 
+https://github.com/kasecato/vscode-javadebug 
 
 
 
