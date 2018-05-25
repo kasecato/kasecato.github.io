@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "command": "npm",
+    "args": ["run"],
+    "tasks": [
+        {
+            "label": "Run build",
+            "type": "shell",
+            "args": ["build"],
+            "isBackground": true,
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            }
+        }
+    ]
+}
