@@ -163,14 +163,14 @@ class DbAccountService (private val RiskAssessor riskAssessor): AccountService {
 
 
 ## まとめ
-[Nulab Apps チームでは Kotliner を待っています](https://www.wantedly.com/projects/75901)
+[Nulab Apps チームでは Kotliner を待っています！](https://www.wantedly.com/projects/75901)
 <!-- .element: class="fragment" data-fragment-index="10" -->
 
 
 
 ## ありがとうございました 🙇‍
-![](img/Nulab_logo.png)
-### by Nulab Apps チーム
+<a href="https://nulab-inc.com/"><img src="img/nulab_logo_color.svg" width="300px" alt="nulab" /></a>
+### by [Nulab Apps チーム](https://nulab-inc.com/ja/about/careers/nulab-apps-developer/)
 
 
 
