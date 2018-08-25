@@ -12,30 +12,23 @@
 
 ## ヌーラボではアカウント基盤をリデザイン中
 「ユーザ体験を改善したい」
-<!-- .element: class="fragment" data-fragment-index="10" -->
 
 |                     | Before                               | After  |
 |:--------------------|:-------------------------------------|:-------|
 | サーバサイド       | Java 8                               | Kotlin |
 | クライアントサイド | Haxe<br/>Knockout.js<br/>Thymeleaf 3 | React  |
-<!-- .element: class="fragment" data-fragment-index="20" -->
 
 
 
 ## なぜ Kotlin ？
 - タテマエ
     - モダンな言語で生産性を高めたい
-<!-- .element: class="fragment" data-fragment-index="10" -->
 - ホンネ
     - 「Java」というだけで世間の目が…
-<!-- .element: class="fragment" data-fragment-index="20" -->
         - ヌーラボには Scala と Go の開発者が多い
         - 世間の [Java dis](https://twitter.com/search?f=tweets&vertical=default&q=java%20%E3%83%AC%E3%82%AC%E3%82%B7%E3%83%BC) で下がり続ける開発モチベーション
-<!-- .element: class="fragment" data-fragment-index="20" -->
     - 「再構築なのに新しいことには挑戦しないのか？」という葛藤
-<!-- .element: class="fragment" data-fragment-index="30" -->
     - しかし鍛えられた貴重な資産があるので JVM は捨てたくない
-<!-- .element: class="fragment" data-fragment-index="40" -->
 
 
 
@@ -47,12 +40,9 @@
 ## 『Kotlinイン・アクション』 序文
 
 > JavaのコードベースはJetBrainsにとって非常に貴重な資産であり、これを失うこと、あるいは相互運用性の困難さによって価値を下げることは回避しなければなりません 
-<!-- .element: class="fragment" data-fragment-index="10" -->
 
 - 同じ課題設定を解決した言語があった！
-<!-- .element: class="fragment" data-fragment-index="20" -->
 - 『Kotlinイン・アクション』 序文に深く共感した！
-<!-- .element: class="fragment" data-fragment-index="20" -->
 
 
 
@@ -69,16 +59,13 @@
 |            | test |  6,509L | 7,018L |    +7% |
 
 - [Kotlin 公式では概算で 40% 削減可能](https://kotlinlang.org/docs/reference/faq.html#what-advantages-does-kotlin-give-me-over-the-java-programming-language)
-<!-- .element: class="fragment" data-fragment-index="10" -->
 - [フランス NPO の開発事例でも 1 万行 が 8 千行に](https://blog.ninja-squad.com/2018/05/22/kotlin-migration/)
-<!-- .element: class="fragment" data-fragment-index="20" -->
 
 
 
 ## なぜコード行数が 22% も減少?
 - Kotlin は簡潔
     - 特にコレクション操作が素晴らしい
-<!-- .element: class="fragment" data-fragment-index="10" -->
 
 ```java
 // Java
@@ -86,7 +73,6 @@ final List<Integer> accountIds = accounts.stream()
         .map(Account::getId)
         .collect(Collectors.toList());
 ```
-<!-- .element: class="fragment" data-fragment-index="10" -->
 
 ```kotlin
 // Kotlin
@@ -95,7 +81,6 @@ val accountIds = accounts.map { it.id }
 // メンバ参照もある; map(Account::getId)
 // 遅延コレクションもある; asSequence() を使用
 ```
-<!-- .element: class="fragment" data-fragment-index="20" -->
 
 
 
@@ -114,7 +99,6 @@ public class DbAccountService implements AccountService {
 
 }
 ```
-<!-- .element: class="fragment" data-fragment-index="10" -->
 
 ```kotlin
 // Kotlin
@@ -125,7 +109,6 @@ class DbAccountService (private val RiskAssessor riskAssessor): AccountService {
 
 // プライマリ コンストラクタで初期化されたプロパティも定義可能
 ```
-<!-- .element: class="fragment" data-fragment-index="20" -->
 
 
 
@@ -138,11 +121,8 @@ class DbAccountService (private val RiskAssessor riskAssessor): AccountService {
 |                | test |   5.0s |   8.9s |   +78% |
 
 - 「2秒」気にしますか？
-<!-- .element: class="fragment" data-fragment-index="10" -->
 - コード行数が増えればもっと遅くなるのでは？
-<!-- .element: class="fragment" data-fragment-index="20" -->
-- Scala より早ければ(ry
-<!-- .element: class="fragment" data-fragment-index="30" -->
+- Scala より速ければ(ry
 
 
 
@@ -154,23 +134,20 @@ class DbAccountService (private val RiskAssessor riskAssessor): AccountService {
 | 実行時間 | test |  46.5s |  59.5s |   +28% |
 
 - [「Kotlinの隠れたコストについてのベンチマーク」](https://postd.cc/kotlinshiddencosts-benchmarks/)
-<!-- .element: class="fragment" data-fragment-index="10" -->
     - Kotlin が高速: ラムダ式，コンパニオン オブジェクト，ローカル関数，null 安全
-<!-- .element: class="fragment" data-fragment-index="20" -->
     - Kotlin が低速: 可変引数＋スプレッド演算子，デリゲート プロパティ
-<!-- .element: class="fragment" data-fragment-index="30" -->
 
 
 
 ## まとめ
 [Nulab Apps チームでは Kotliner を待っています！](https://www.wantedly.com/projects/75901)
-<!-- .element: class="fragment" data-fragment-index="10" -->
 
 
 
 ## ありがとうございました 🙇‍
 <a href="https://nulab-inc.com/"><img src="img/nulab_logo_color.svg" width="300px" alt="nulab" /></a>
 ### by [Nulab Apps チーム](https://nulab-inc.com/ja/about/careers/nulab-apps-developer/)
+## Kotlin かわいい！(´Д｀)(´Д｀)
 
 
 
