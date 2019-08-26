@@ -13,11 +13,8 @@
 - 2019年8月16日 (金)
 - 私立大1年の少年
 - 電子計算機使用詐欺と不正アクセス禁止法違反の容疑で逮捕
-<!-- .element: class="fragment" data-fragment-index="10" -->
 - 大学生4人を同容疑で書類送検
-<!-- .element: class="fragment" data-fragment-index="20" -->
 - その手口は…
-<!-- .element: class="fragment" data-fragment-index="20" -->
 
 
 
@@ -30,15 +27,10 @@
 ## フィッシング
 
 - 1995年の AOL（インタネット サービス プロバイダ）
-<!-- .element: class="fragment" data-fragment-index="10" -->
 - AOLスタッフを装いパスワードを不正に送信させたかったが，監視されていた
-<!-- .element: class="fragment" data-fragment-index="20" -->
 - チャット ルームの監視フィルタ回避スクリプトが <>< だった
-<!-- .element: class="fragment" data-fragment-index="30" -->
 - <>< が魚に見えた
-<!-- .element: class="fragment" data-fragment-index="40" -->
 - fish (魚) + phreaking (不正に無料で電話をかける行為) = Phishing
-<!-- .element: class="fragment" data-fragment-index="50" -->
 
 
 
@@ -66,13 +58,9 @@
 - Google は全社員に「FIDO U2F」の使用を義務付けた
 - FIDO U2F?
     - Fast Identity Online = 素早いオンライン認証
-<!-- .element: class="fragment" data-fragment-index="10" -->
     - Universal 2nd Factor = ユニバーサルな2要素
-<!-- .element: class="fragment" data-fragment-index="10" -->
     - （名前を聞いてもよくわからないと思った）
-<!-- .element: class="fragment" data-fragment-index="20" -->
 - 2要素認証に物理デバイスを使用する
-<!-- .element: class="fragment" data-fragment-index="30" -->
     1. パスワード認証 = 知識の要素
     1. 物理デバイス = 所有の要素 👈 義務化
 
@@ -86,9 +74,7 @@
         - (2) Something the person has;
         - (3) Something the person is.
     - 712年 古事記に登場する三種の神器 = has 所有の要素
-<!-- .element: class="fragment" data-fragment-index="10" -->
 - 2019年の私たちはなぜ2段階認証が…
-<!-- .element: class="fragment" data-fragment-index="20" -->
 
 
 
@@ -99,9 +85,9 @@
 ## FIDO の基本コンセプト
 
 - 公開鍵暗号を用いたチャレンジレスポンス認証
-- Authenticator を用いた秘密鍵の生成と保護
+- 認証器を用いた秘密鍵の生成と保護
 - origin に紐づく認証情報の管理
-- ローカルでのユーザー認証
+- ローカルでのユーザー検証
 
 出典: もとほんや, 『[WebAuthn 本](https://techbookfest.org/event/tbf05/circle/28720014)』, p.9, (Oct, 2018). [@watahani](https://twitter.com/watahani)
 
@@ -121,11 +107,8 @@
 `$$ C \equiv M^E \pmod N $$`
 `$$ M \equiv C^D \pmod N $$`
 - 1985年 Koblitz と Miller が楕円曲線暗号を提案
-<!-- .element: class="fragment" data-fragment-index="10" -->
     - RSA 2048 ビットを ECC 206 ビット程度で担保
-<!-- .element: class="fragment" data-fragment-index="10" -->
     - 組込み向け = FIDO の認証器でも使用
-<!-- .element: class="fragment" data-fragment-index="10" -->
 
 
 
@@ -148,15 +131,10 @@
 
 - 登録
     - ブラウザは RP からチャレンジを取得
-<!-- .element: class="fragment" data-fragment-index="10" -->
     - 認証器は鍵ペアを生成
-<!-- .element: class="fragment" data-fragment-index="20" -->
         - 秘密鍵でチャンレンジに署名 = レスポンス
-<!-- .element: class="fragment" data-fragment-index="30" -->
     - RP は公開鍵で署名を検証
-<!-- .element: class="fragment" data-fragment-index="40" -->
         - 公開鍵を登録
-<!-- .element: class="fragment" data-fragment-index="50" -->
 
 
 
@@ -168,19 +146,14 @@
 
 - 認証
     - ブラウザは RP からチャレンジを取得
-<!-- .element: class="fragment" data-fragment-index="10" -->
     - 認証器は秘密鍵を導出
-<!-- .element: class="fragment" data-fragment-index="20" -->
         - 秘密鍵でチャレンジに署名 = レスポンス
-<!-- .element: class="fragment" data-fragment-index="30" -->
     - RP は署名を検証
-<!-- .element: class="fragment" data-fragment-index="40" -->
         - ユーザを認証
-<!-- .element: class="fragment" data-fragment-index="50" -->
 
 
 
-### Authenticator を用いた秘密鍵の生成と保護
+### 認証器を用いた秘密鍵の生成と保護
 
 - 1994年 FIPS 140-1
 - 2001年 [FIPS 140-2](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.140-2.pdf)
@@ -202,11 +175,10 @@
 - AppID (rpId) = origin = ドメイン名
 - 鍵ペアの生成にドメイン名が含まれる
     - フィッシング耐性がある
-<!-- .element: class="fragment" data-fragment-index="10" -->
 
 
 
-### ローカルでのユーザー認証
+### ローカルでのユーザー検証
 
 - リモート認証
     - パスワードはネットワーク上に流れる
@@ -254,7 +226,7 @@
     - 公開鍵暗号を用いたチャレンジレスポンス認証
     - Authenticator を用いた秘密鍵の生成と保護
     - origin に紐づく認証情報の管理
-    - ローカルでのユーザー認証
+    - ローカルでのユーザー検証
 - WebAuthn はブラウザに実装された 2 つの API
     - 登録 navigator.credentials.create()
     - 認証 navigator.credentials.get()
