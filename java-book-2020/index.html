@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>2020年に読んだ3つのJava本を振り返る | Javaコミュ@福岡オンライン飲み会</title>
+
+		<meta name="description" content="無職期間中に読んだ 26/45 冊の本の中で，3 つの Java 本で思わずマーカを引いた箇所を振り返りました。">
+		<meta name="author" content="kasecato">
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/solarized.css" id="theme">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/solarized-light.css" id="highlight-theme">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-markdown="README.md"
+						data-separator="^\n\n\n"
+						data-separator-vertical="^\n\n"
+						data-separator-notes="^Note:"
+						data-charset="utf-8">
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+				progress: true,
+				slideNumber: 'c/t',
+				transition: 'convex',
+
+				width: 1400,
+				height: 980,
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight ]
+			});
+		</script>
+	</body>
+</html>

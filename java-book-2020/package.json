@@ -1,0 +1,10 @@
+{
+    "name": "java-book-2020",
+    "version": "1.0.0",
+    "devDependencies": {
+        "live-server": "~1.2.1"
+    },
+    "scripts": {
+        "build": "./node_modules/.bin/live-server"
+    }
+}
