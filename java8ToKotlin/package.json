@@ -2,7 +2,7 @@
     "name": "webauthn",
     "version": "1.0.0",
     "devDependencies": {
-        "live-server": "~1.2.0"
+        "live-server": "~1.2.2"
     },
     "scripts": {
         "build": "./node_modules/.bin/live-server"
