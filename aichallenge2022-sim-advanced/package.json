@@ -1,0 +1,10 @@
+{
+    "name": "ai-challenge-2022-sim-advanced",
+    "version": "1.0.0",
+    "devDependencies": {
+        "live-server": "1.2.2"
+    },
+    "scripts": {
+        "serve": "./node_modules/.bin/live-server"
+    }
+}
