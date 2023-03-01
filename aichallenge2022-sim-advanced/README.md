@@ -7,7 +7,7 @@
 ### [Japan Automotive AI Challenge - Awards Ceremony](https://www.jsae.or.jp/jaaic/en/summary.php)
 ### @[Tokyo Culture Culture](https://tokyocultureculture.com/)
 
-March 8, 2023
+March 6, 2023
 
 Note:
 自動運転 AI Challenge アドバンスト コース 3 位に入賞しましたチーム YutakaJCT と申します。
