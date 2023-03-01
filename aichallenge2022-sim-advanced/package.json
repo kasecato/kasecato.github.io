@@ -2,9 +2,11 @@
     "name": "ai-challenge-2022-sim-advanced",
     "version": "1.0.0",
     "devDependencies": {
-        "live-server": "1.2.2"
+        "live-server": "1.2.2",
+        "reveal-notes-server": "^0.1.0"
     },
     "scripts": {
-        "serve": "./node_modules/.bin/live-server"
+        "serve": "./node_modules/.bin/live-server",
+        "build": "node ./node_modules/reveal-notes-server"
     }
 }
